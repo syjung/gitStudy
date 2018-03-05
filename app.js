@@ -126,3 +126,5 @@ app.get('/dynamic', function(req, res){
 app.get('/template', function(req, res){
   res.render('temp', {time:Date(), _title:"SYJUNG's Homepage"});
 });
+
+
